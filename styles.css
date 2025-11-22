@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    padding: 1rem; /* Espaçamento interno reduzido */
+    padding: 0.75rem 1rem; /* Espaçamento interno reduzido (vertical e horizontal) */
     display: flex; /* Habilita o layout flexbox */
     flex-direction: column; /* Organiza os itens em coluna */
     align-items: center; /* Alinha os itens verticalmente ao centro */
@@ -37,7 +37,7 @@ header {
 }
 
 header h1 {
-    font-size: 4.0rem; /* Tamanho da fonte */
+    font-size: 3.5rem; /* Tamanho da fonte (reduzido) */
     margin: 0; /* Remove a margem padrão */
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
@@ -55,7 +55,7 @@ header h1:hover {
 header > p {
     font-size: 1rem;
     color: var(--tertiary-color);
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0; /* Margem inferior reduzida */
     max-width: 600px;
     text-align: center;
 }
